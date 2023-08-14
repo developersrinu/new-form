@@ -1,0 +1,65 @@
+/* *{
+      background-color: black; */
+
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.form{
+      margin-top: 150px;
+
+} 
+
+
+
+
+input{
+      width: 230px;
+      height: 30px;
+      font-size: 17px;
+      text-align: center;
+      outline: none;
+      margin-left: 39px;
+
+
+}
+input:hover{
+      background-color:rgba(0, 255, 221, 0.413) ;
+}
+
+
+/* Form.css */
+
+@keyframes slideInFromLeft {
+      0% {
+          transform: translateX(-100%);
+      }
+      100% {
+          transform: translateX(0);
+      }
+  }
+  
+  .form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 150px;
+      position: relative;
+      width: 100%;
+      animation: slideInFromLeft 0.5s ease-in-out;
+      overflow: hidden;
+      /* padding-left: px; */
+      padding: 20px;
+      background-color: #f4f4f4;
+      border: 3px solid #810e0e;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      transition: background-color 0.3s ease-in-out; /* Transition for background color */
+  }
+  
+ 
+  
